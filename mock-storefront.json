@@ -1,0 +1,16 @@
+{
+  "authApiKey": null,
+  "authDomain": null,
+  "authType": "demo",
+  "id": "test-store-glha",
+  "name": "Test Store",
+  "productGroups": [
+    {
+      "allUsers": true,
+      "productGroupId": "core-products-qzrd",
+      "selectedAudiences": []
+    }
+  ],
+  "supportMcp": false,
+  "themeId": "tech-hub-asgh"
+}
