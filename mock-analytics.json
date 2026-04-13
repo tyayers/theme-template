@@ -1,0 +1,545 @@
+{
+  "app": [
+    {
+      "environments": [
+        {
+          "dimensions": [
+            {
+              "individualNames": ["AI App"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "87"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "56"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "2"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "24"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "14"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "71"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "621965"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "50"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "9743"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "3031"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI App"
+            }
+          ],
+          "name": "dev"
+        }
+      ]
+    }
+  ],
+  "model": [
+    {
+      "environments": [
+        {
+          "dimensions": [
+            {
+              "individualNames": ["(not set)"],
+              "metrics": [
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "avg(dc_ai_time_first_token)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "(not set)"
+            },
+            {
+              "individualNames": ["claude-sonnet-4-6"],
+              "metrics": [
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "26"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "580"
+                    }
+                  ]
+                },
+                {
+                  "name": "avg(dc_ai_time_first_token)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "1895.0"
+                    }
+                  ]
+                }
+              ],
+              "name": "claude-sonnet-4-6"
+            },
+            {
+              "individualNames": ["gemini-3-flash-preview"],
+              "metrics": [
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "621965"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "9743"
+                    }
+                  ]
+                },
+                {
+                  "name": "avg(dc_ai_time_first_token)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "1970.7241379310344"
+                    }
+                  ]
+                }
+              ],
+              "name": "gemini-3-flash-preview"
+            },
+            {
+              "individualNames": ["google/gemini-flash-latest"],
+              "metrics": [
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "24"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "2451"
+                    }
+                  ]
+                },
+                {
+                  "name": "avg(dc_ai_time_first_token)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "597.75"
+                    }
+                  ]
+                }
+              ],
+              "name": "google/gemini-flash-latest"
+            }
+          ],
+          "name": "dev"
+        }
+      ]
+    }
+  ],
+  "product": [
+    {
+      "environments": [
+        {
+          "dimensions": [
+            {
+              "individualNames": ["AI Product"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "2"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "24"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "14"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "71"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1774742400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774656000000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774483200000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1774396800000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI Product"
+            },
+            {
+              "individualNames": ["AI-VertexGemini"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "58"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "4"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "0"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI-VertexGemini"
+            },
+            {
+              "individualNames": ["AI-VertexClaude"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "29"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "8"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "621965"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "50"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1776038400000,
+                      "value": "9743"
+                    },
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "3031"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI-VertexClaude"
+            },
+            {
+              "individualNames": ["AI-VertexGeminiProxy"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "31"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI-VertexGeminiProxy"
+            },
+            {
+              "individualNames": ["AI-VertexClaudeProxy"],
+              "metrics": [
+                {
+                  "name": "sum(message_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "13"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_prompt_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                },
+                {
+                  "name": "sum(dc_ai_response_token_count)",
+                  "values": [
+                    {
+                      "timestamp": 1775952000000,
+                      "value": "0"
+                    }
+                  ]
+                }
+              ],
+              "name": "AI-VertexClaudeProxy"
+            }
+          ],
+          "name": "dev"
+        }
+      ]
+    }
+  ]
+}
