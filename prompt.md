@@ -1,4 +1,4 @@
-Create a really beautiful and flashy web app in vanilla HTML/CSS/JS supporting both light and dark modes. The user experience should be fancy and premium, with lots of animations and eye candy.
+Create a modern AI tools and models portal web app in vanilla HTML/CSS/JS supporting both light and dark modes. The style should be slick and modern.
 
 Here are the details about how the app should be structured and which features should be offered:
 
@@ -29,4 +29,4 @@ Here are the details about how the app should be structured and which features s
 * If the user clicks on their profile photo and then on the Account link, this should open up the account view, which shows basic info about the user's account, and also a "Danger Zone" where the user can delete their account.
 
 ## User analytics view
-* If the user clicks on their profile photo and then on the Analytics link, this should open up the analytics view that displays several graphs and tables of the user's consumption by product. If demoMode is "true", then the data should be loaded from the file mock-analytics.json, or if "false" then loaded from the "/api/users/{email}/analytics" endpoint at apiHost. The data should only be displayed from the "product" key in the response, and offer both a graph and table of the data for each day in the results, in one section per product.
+* If the user clicks on their profile photo and then on the Analytics link, this should open up the analytics view that displays several graphs and tables of the user's consumption by product. If demoMode is "true", then the data should be loaded from the file mock-analytics.json, or if "false" then loaded from the "/api/users/{email}/analytics" endpoint at apiHost. The data should only be displayed from the "product" key in the response, and offer an graph and table, with the user being able to select to show the data for all products, or a selection of products.
