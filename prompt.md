@@ -1,4 +1,4 @@
-Create a modern AI tools and models portal web app in vanilla HTML/CSS/JS supporting both light and dark modes. The style should be slick and modern.
+Create a modern API portal web app in vanilla HTML/CSS/JS supporting both light and dark modes. The style should be slick and modern. It should show users all API products, categories, and let them manage their subscriptions and view their analytics.
 
 Here are the details about how the app should be structured and which features should be offered:
 
